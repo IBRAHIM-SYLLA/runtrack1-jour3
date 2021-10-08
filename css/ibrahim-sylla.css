@@ -1,0 +1,73 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+}
+body{
+   background-image: url(img1.jpg);
+}
+.para1{
+    text-align: center;
+    text-shadow: 0 0 5px red;
+}
+.para2{
+    text-shadow: 0 0 5px red;
+}
+.para1:hover{
+    text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+.para2:hover{
+    position: relative;
+    font-weight: 900;
+}
+.para3{
+    color: yellow;
+    font-size: 18px;
+    letter-spacing: 10px;
+}
+.para3:hover{
+    text-transform: uppercase;
+}
+.ibra{
+    border-radius: 8px;
+}
+.ibra{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.ibra:hover{
+    transform: rotateX(150deg);
+filter: saturate(10);
+}
+
+.img2{
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+}
+#parentTest{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.parentTest{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    /* justify-content fonctionne avec flex row */
+    color: whitesmoke;
+    /* align-item fonctionne avec flex column */
+    /* align-items: center; */
+}
+#testParagraph{
+    color:white;
+    width:500px;
+    letter-spacing: 5px;
+border: turquoise solid 2px;
+}
